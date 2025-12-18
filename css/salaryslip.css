@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-family: "Jost", serif;
+}
+
+.overall {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 5px 5px 5px;
+    width: 98%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    margin: 1rem 0;
+    color: #676767bd;
+    border: 0;
+    border-top: 2px solid;
+    opacity: 0.25;
+}
+
+/* .table tbody tr {
+    border: none !important;
+} */
+
+@page {
+    margin: 5px;
+}
+
+/* Header */
+.nulinzheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.headerleft h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 550;
+    color: #000;
+}
+
+.headerleft h6 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #484848;
+}
+
+/* Employee Details */
+.empdetails {
+    margin: 10px 0px;
+}
+
+.empdetails h5 {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.empdetails h6 {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #0989D4;
+}
+
+.emptable {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+/* Employee Left */
+.table>:not(caption)>*>* {
+    padding: 1px .5rem !important;
+}
+
+.tableleft .table tbody th {
+    font-size: 14px;
+    font-weight: 550;
+    text-align: left;
+    color: #484848;
+}
+
+.tableleft .table tbody td {
+    font-size: 13px;
+    font-weight: 450;
+    text-align: left;
+    color: #000;
+}
+
+/* Employee Right */
+.tableright h6 {
+    font-size: 13px;
+    font-weight: 450;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.tableright h6 span {
+    font-weight: 400;
+    color: #484848;
+}
+
+.tableright h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #000;
+}
+
+/* Earnings Table */
+.earningstable {
+    margin: 10px 0px;
+}
+
+.earningstable thead {
+    border-bottom: 2px dashed #888 !important;
+}
+
+.earningstable thead th {
+    text-transform: uppercase;
+    font-weight: 650;
+    font-size: 16px;
+    color: #0989D4;
+}
+
+.earningstable tbody tr td,
+.earningstable tbody tr th {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+.earningstable tbody td {
+    font-weight: 450;
+    font-size: 14px;
+}
+
+.earningstable td span {
+    color: #484848;
+    font-weight: 700;
+}
+
+/* Total Pay */
+.totalpay {
+    margin-top: 20px;
+}
+
+.totalpay h4 {
+    text-align: center;
+}
+
+.totalpay .totalcntnt {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.totalpay .totalwords {
+    font-size: 14px;
+    font-weight: 450;
+    color: #484848;
+}

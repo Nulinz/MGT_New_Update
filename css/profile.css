@@ -1,0 +1,478 @@
+@media screen and (min-width: 1098px) {
+
+    .sidebodydiv .sidebodyhead h4 {
+        color: #000;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .mainbdy {
+        margin-top: 10px;
+    }
+
+    .row {
+        --bs-gutter-x: 0rem;
+    }
+
+    .emphead {
+        display: grid;
+        grid-template-columns: 18% 82%;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    .empleft img {
+        object-fit: cover;
+        object-position: top;
+        border-radius: 20px 0px 0px 0px;
+        box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+    }
+
+    .empright,
+    .maincard {
+        position: relative;
+        background-color: #fff;
+        padding: 15px 15px 0px 15px;
+        border-radius: 0px 0px 20px 0px;
+        box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+        border: 1px solid #00000014;
+    }
+
+    .emphead .row .col-sm-12 h6,
+    .cards .row .col-sm-12 h6 {
+        font-size: 12px;
+        font-weight: 500;
+        color: #8a8b8e;
+    }
+
+    .emphead .row .col-sm-12 h5,
+    .cards .row .col-sm-12 h5 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .editicon {
+        background-color: #000;
+        border: 2px solid #000;
+        height: 30px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        border-radius: 0px 0px 0px 10px;
+    }
+
+    .topct h6 {
+        font-weight: 700;
+
+        color: #000;
+    }
+
+    .editicon i {
+        color: #fff;
+    }
+
+    .editicon:hover {
+        background-color: #fff;
+    }
+
+    .editicon:hover i {
+        color: #000;
+    }
+
+    /* Tabs */
+    .proftabs {
+        margin-top: 20px;
+    }
+
+    .nav-tabs {
+        border: none;
+    }
+
+    .nav-tabs .nav-link {
+        border: none;
+        border-radius: 20px;
+        padding: 5px 25px;
+        font-weight: 500;
+        font-size: 15px;
+        color: #000 !important;
+        transition: 0.5s ease-in-out;
+    }
+
+    .tab-content {
+        margin-top: 20px;
+    }
+
+    .nav-item .nav-link.active,
+    .nav-item .nav-link:hover {
+        background-color: #000;
+        color: #fff !important;
+    }
+
+    .tabh6 {
+        color: #000;
+        font-size: 13px;
+        /* text-decoration: 2px underline #888; */
+        transition: 0.5s ease-in-out;
+    }
+
+    .tabh6 i {
+        font-size: 11px;
+    }
+
+    .tabh6:hover {
+        color: #228BE6;
+        font-size: 13px;
+        /* text-decoration: 2px underline #888; */
+    }
+
+    /* Project Porfile CSS */
+    .left-content,
+    .center-content {
+        border-right: 2px solid #D9D9D9;
+    }
+
+    .left-content .table .lefthead {
+        color: #4D4D4D;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+    }
+
+    .left-content .table .leftcntnt {
+        color: #000;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    /* Accordion */
+    .accordion-item {
+        border: none;
+        background-color: transparent;
+        color: #000;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1098px) {
+
+    .sidebodydiv .sidebodyhead h4 {
+        color: #000;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .mainbdy {
+        margin-top: 10px;
+    }
+
+    .row {
+        --bs-gutter-x: 0rem;
+    }
+
+    .emphead {
+        display: grid;
+        grid-template-columns: 25% 75%;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    .empleft img {
+        object-fit: cover;
+        object-position: top;
+        border-radius: 20px 0px 0px 0px;
+        box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+    }
+
+    .empright,
+    .maincard {
+        position: relative;
+        background-color: #fff;
+        padding: 15px 15px 0px 15px;
+        border-radius: 0px 0px 20px 0px;
+        box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+        border: 1px solid #00000014;
+    }
+
+    .emphead .row .col-sm-12 h6,
+    .cards .row .col-sm-12 h6 {
+        font-size: 10px;
+        font-weight: 500;
+        color: #8a8b8e;
+    }
+
+    .emphead .row .col-sm-12 h5,
+    .cards .row .col-sm-12 h5 {
+        font-size: 12px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .editicon {
+        background-color: #000;
+        border: 2px solid #000;
+        height: 30px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        border-radius: 0px 0px 0px 10px;
+    }
+
+    .topct h6 {
+        font-weight: 700;
+        color: #000;
+    }
+
+    .editicon i {
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .editicon:hover {
+        background-color: #fff;
+    }
+
+    .editicon:hover i {
+        color: #000;
+    }
+
+    /* Tabs */
+    .proftabs {
+        margin-top: 15px;
+    }
+
+    .nav-tabs {
+        border: none;
+    }
+
+    .nav-tabs .nav-link {
+        border: none;
+        border-radius: 20px;
+        padding: 5px 25px;
+        font-weight: 500;
+        font-size: 13px;
+        color: #000 !important;
+        transition: 0.5s ease-in-out;
+    }
+
+    .tab-content {
+        margin-top: 15px;
+    }
+
+    .nav-item .nav-link.active,
+    .nav-item .nav-link:hover {
+        background-color: #000;
+        color: #fff !important;
+    }
+
+    /* Task Porfile CSS */
+    .left-content,
+    .center-content {
+        border-right: 2px solid #D9D9D9;
+    }
+
+    .left-content .table .lefthead {
+        color: #4D4D4D;
+        font-size: 10px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+    }
+
+    .left-content .table .leftcntnt {
+        color: #000;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    /* Accordion */
+    .accordion-item {
+        border: none;
+        background-color: transparent;
+        color: #000;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .sidebodydiv .sidebodyhead h4 {
+        color: #000;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mainbdy {
+        margin-top: 10px;
+    }
+
+    /* .row {
+        --bs-gutter-x: 0rem !important;
+    } */
+
+    .emphead {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .empleft img {
+        object-fit: cover;
+        object-position: top;
+        border-radius: 20px 0px 0px 0px;
+        box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+        margin-bottom: 15px;
+    }
+
+    .empright,
+    .maincard {
+        position: relative;
+        background-color: #fff;
+        padding: 15px 15px 0px 15px;
+        border-radius: 0px 0px 20px 0px;
+        box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+        border: 1px solid #00000014;
+    }
+
+    .emphead .row .col-sm-12 h6,
+    .cards .row .col-sm-12 h6 {
+        font-size: 12px;
+        font-weight: 500;
+        color: #8a8b8e;
+    }
+
+    .emphead .row .col-sm-12 h5,
+    .cards .row .col-sm-12 h5 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #000;
+    }
+
+    .editicon {
+        background-color: #000;
+        border: 2px solid #000;
+        height: 30px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        border-radius: 0px 0px 0px 10px;
+    }
+
+    .topct h6 {
+        font-weight: 700;
+
+        color: #000;
+    }
+
+    .editicon i {
+        color: #fff;
+    }
+
+    .editicon:hover {
+        background-color: #fff;
+    }
+
+    .editicon:hover i {
+        color: #000;
+    }
+
+    /* Tabs */
+    .proftabs {
+        margin-top: 20px;
+    }
+
+    .nav-tabs {
+        border: none;
+    }
+
+    .nav-tabs .nav-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-tabs .nav-link {
+        border: none;
+        border-radius: 20px;
+        padding: 5px 25px;
+        font-weight: 500;
+        font-size: 15px;
+        color: #000 !important;
+        transition: 0.5s ease-in-out;
+        margin: 0px auto 8px auto;
+    }
+
+    .tab-content {
+        margin-top: 20px;
+    }
+
+    .nav-item .nav-link.active,
+    .nav-item .nav-link:hover {
+        background-color: #000;
+        color: #fff !important;
+    }
+
+    /* Project Porfile CSS */
+    .left-content,
+    .center-content {
+        border-right: none !important;
+        border-bottom: 1px solid #888;
+        margin-bottom: 15px;
+    }
+
+    .right-content {
+        margin-bottom: 15px;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .left-content .table .lefthead {
+        color: #4D4D4D;
+        font-size: 10px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+    }
+
+    .left-content .table .leftcntnt {
+        color: #000;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    /* Accordion */
+    .accordion-item {
+        border: none;
+        background-color: transparent;
+        color: #000;
+    }
+
+}

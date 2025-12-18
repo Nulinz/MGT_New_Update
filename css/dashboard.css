@@ -1,0 +1,262 @@
+.apexcharts-toolbar {
+    display: none !important;
+}
+
+@media screen and (min-width: 1098px) {
+
+    .sidebodydiv .container .row .cards {
+        padding: 15px 30px 15px 30px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+    }
+
+    .sidebodydiv .sdbdysearch {
+        border: 1px solid #CED4DA;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 5px;
+        height: 37px;
+    }
+
+    .sdbdysearch button {
+        width: 15%;
+        background-color: #6C757D;
+        color: #fff;
+        border: none;
+        height: 37px;
+        border-radius: 0px 5px 5px 0px;
+        margin: 0;
+    }
+
+    .sdbdysearch input {
+        width: 85%;
+        height: 36px;
+    }
+
+    /* Chart CSS */
+    #chart1 p,
+    #chart2 p {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 0px !important;
+    }
+
+    /* Card CSS */
+    .cardshead {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .card1h6 {
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .card1h6 span {
+        font-weight: 700;
+        font-size: 13px;
+        color: #6C757D;
+    }
+
+    .card1h2 span {
+        font-size: 21px;
+        color: #6C757D;
+        font-weight: 700;
+    }
+
+    .card1h2 {
+        font-size: 19px;
+        font-weight: 600;
+        color: #000;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1098px) {
+
+    .sidebodydiv .container .row .cards {
+        padding: 15px 10px 15px 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+    }
+
+    .sidebodydiv .container .row .col-md-3,
+    .sidebodydiv .container .row .col-md-4 {
+        padding-right: 0px;
+    }
+
+    .sidebodydiv .container {
+        margin: auto 0px;
+    }
+
+    .sidebodydiv .sdbdysearch {
+        border: 1px solid #CED4DA;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 5px;
+        height: 30px;
+    }
+
+    .sdbdysearch button {
+        width: 15%;
+        background-color: #6C757D;
+        color: #fff;
+        border: none;
+        height: 29px;
+        border-radius: 0px 5px 5px 0px;
+        margin: 0;
+    }
+
+    .sdbdysearch input {
+        width: 85%;
+        height: 28px;
+    }
+
+    /* Chart CSS */
+    #chart1 p,
+    #chart2 p {
+        font-size: 13px;
+        font-weight: 500;
+        margin-bottom: 0px !important;
+    }
+
+    /* Card CSS */
+    .cardshead {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .card1h6 {
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .card1h6 span {
+        font-weight: 700;
+        font-size: 12px;
+        color: #6C757D;
+    }
+
+    .card1h2 span {
+        font-size: 15px;
+        color: #6C757D;
+        font-weight: 700;
+    }
+
+    .card1h2 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #000;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .sidebodydiv .container .row .cards {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+    }
+
+    .sidebodydiv .container {
+        margin: auto 0px;
+    }
+
+    .sidebodydiv .sdbdysearch {
+        border: 1px solid #CED4DA;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 5px;
+        height: 25px;
+        width: 90%;
+    }
+
+    .sdbdysearch button {
+        width: 15%;
+        background-color: #6C757D;
+        color: #fff;
+        border: none;
+        height: 25px;
+        border-radius: 0px 5px 5px 0px;
+        margin: 0;
+    }
+
+    .sdbdysearch input {
+        width: 85%;
+        height: 23px;
+    }
+
+    /* Chart CSS */
+    #chart1 p,
+    #chart2 p {
+        font-size: 13px;
+        font-weight: 500;
+        margin-bottom: 0px !important;
+    }
+
+    /* Card CSS */
+    .cardshead {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .card1h6 {
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .card1h6 span {
+        font-weight: 700;
+        font-size: 13px;
+        color: #6C757D;
+    }
+
+    .card1h2 span {
+        font-size: 21px;
+        color: #6C757D;
+        font-weight: 700;
+    }
+
+    .card1h2 {
+        font-size: 19px;
+        font-weight: 600;
+        color: #000;
+    }
+
+}
+
+/* @media screen and (min-width: 1098px) {
+    #chart2 {
+        height: 315px !important;
+    }
+} */
+
+@media screen and (min-width: 768px) and (max-width: 1098px) {
+    #chart2 {
+        height: 315px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #chart2 {
+        height: 150px;
+    }
+}

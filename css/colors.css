@@ -1,0 +1,18 @@
+:root {
+    --main: #231F20;
+    --primary: #000;
+    --secondary: #fff;
+    --bg: #F7F7FC;
+    --stages-bg: #EEF1F3;
+    --label: #4d4d4d;
+    --input-border: #21242730;
+    --tinp-border: #9E9E9E;
+    --trow: #ffffff;
+    --thead: #696969;
+    --tdata: #495057;
+    --aside-li: #bababa;
+    --mandatory: #ff0000;
+    --green: #009400;
+    --red: #ca0000;
+    --box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+}

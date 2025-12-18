@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.overall {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+/* Header 1 */
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.header .headerdiv2 {
+    width: 100%;
+}
+
+.header .headerdiv2 .headerct {
+    padding: 2% 5%;
+}
+
+.header .headerdiv2 span {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.header .headerdiv1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-right: 1px solid #000;
+}
+
+.headerdiv1 .logo {
+    width: 20%;
+    /* padding-left: 20px; */
+    padding-top: 10px;
+}
+
+.header .headerdiv1 .companydt h6,
+.header .headerdiv2 div h6 {
+    margin: 1px 0px 0px 0px;
+}
+
+.header .headerdiv1 #companytitle {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.header .headerdiv1 #companyaddress {
+    font-weight: 500;
+    font-size: 10px;
+}
+
+/* Header 2 */
+.cmpnytable,
+.cmpnytable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cmpnytable table tr {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.cmpnytable table tr td {
+    text-align: left;
+    padding: 1% 5%;
+    font-size: 12px;
+}
+
+.cmpnytable table tr th {
+    text-align: left;
+    padding: 1% 5%;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.cmpnytable table thead {
+    background-color: #0989D4;
+    color: #fff;
+}
+
+/* Bill Content */
+.billtable {
+    width: 100%;
+}
+
+.billtable table {
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-collapse: collapse;
+}
+
+.billtable table thead {
+    background-color: #0989D4;
+    color: #fff;
+    padding-left: 100px;
+}
+
+.billtable table th,
+.billtable table td {
+    width: auto;
+    font-size: 12px;
+    padding: 0.8% 1%;
+}
+
+.billtable table th {
+    font-weight: 600;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: 1px solid #000;
+}
+
+.footer .footerdiv1 {
+    width: 100%;
+    border-right: 1px solid #000;
+}
+
+.footer .footerdiv1 .footerdiv0 {
+    padding: 1% 5%;
+}
+
+.footer .footerdiv1 span {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+.footer .footerdiv1 .footerdiv0 table tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 12px;
+}
+
+.footer .footerdiv1 .payment1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer .footerdiv1 .upiimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer .footerdiv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 10px;
+}
+
+/* Termsncondition */
+.termsncondition {
+    padding: 0% 2%;
+}
+
+.termsncondition ul {
+    margin-top: -10px;
+}
+
+.termsncondition ul li {
+    list-style-type: square;
+    font-size: 13px;
+}
+
+@media print {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .header,
+    .header * {
+        visibility: visible;
+    }
+}
+
+@page {
+    margin: 5px;
+}
+
+.footer .qr img {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.footer .qr h6 {
+    margin: 3px 0px;
+    text-align: center;
+}
